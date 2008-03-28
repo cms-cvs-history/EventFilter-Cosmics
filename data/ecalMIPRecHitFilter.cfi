@@ -1,0 +1,17 @@
+	module  ecalMIPRecHitFilter  = EcalMIPRecHitFilter
+{
+    InputTag EcalRecHitCollection = ecalRecHit:EcalRecHitsEB
+    
+    #These are in GeV
+    untracked double AmpMin = 0.063 
+    untracked double SingleAmpMin = 0.090
+
+    untracked int32 side = 3
+    #
+    untracked vint32 maskedChannels      = { }
+    # this is for EB+18, GRES
+    #untracked vint32 maskedChannels      = {139, 534, 1685}
+    
+    # this is for EB+15, GREA
+    #    untracked vint32 maskedChannels      = {888}
+}

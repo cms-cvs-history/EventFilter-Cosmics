@@ -14,9 +14,6 @@
 <use name=CondFormats/DataRecord>
 <use name=boost>
 <use name=root>
-<use name=Geometry/CaloTopology>
-<use name=Geometry/CaloEventSetup>
-<use name=DataFormats/DetId>
 
 <flags EDM_PLUGIN=1>
 <export>
@@ -27,7 +24,4 @@
    <use name=HLTrigger/HLTcore>
    <use name=RecoMuon/TrackingTools>
    <use name=TrackingTools/TransientTrack>
-   <use name=Geometry/CaloTopology>
-   <use name=Geometry/CaloEventSetup>
-   <use name=DataFormats/DetId>
 </export>

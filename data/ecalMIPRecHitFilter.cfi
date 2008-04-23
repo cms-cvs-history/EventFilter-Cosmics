@@ -5,14 +5,10 @@
     #These are in GeV
     untracked double AmpMinSeed   = 0.045
     untracked double AmpMin2      = 0.045
-    untracked double SingleAmpMin = 0.108
+    untracked double SingleAmpMin = 0.135
 
     untracked int32 side = 3
-    #
+    # no longer needed (list of hashed indices)
     untracked vint32 maskedChannels      = { }
-    # this is for EB+18, GRES
-    #untracked vint32 maskedChannels      = {139, 534, 1685}
-    
-    # this is for EB+15, GREA
-    #    untracked vint32 maskedChannels      = {888}
+
 }

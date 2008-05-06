@@ -7,7 +7,7 @@
     untracked double AmpMin2      = 0.045
     untracked double SingleAmpMin = 0.135
 
-    untracked int32 side = 3
+    untracked int32 side = 5
     # no longer needed (list of hashed indices)
     untracked vint32 maskedChannels      = { }
 

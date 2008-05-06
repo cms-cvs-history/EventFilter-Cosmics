@@ -3,8 +3,8 @@
     InputTag EcalRecHitCollection = ecalRecHit:EcalRecHitsEB
     
     #These are in GeV
-    untracked double AmpMinSeed   = 0.045
-    untracked double AmpMin2      = 0.045
+    untracked double AmpMinSeed   = 0.044
+    untracked double AmpMin2      = 0.044
     untracked double SingleAmpMin = 0.135
 
     untracked int32 side = 5
